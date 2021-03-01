@@ -34,6 +34,6 @@ algorithm.
     }
    ```
    It's easy to check some condition of any node using bit manipulation. And it's also very elegant to update the state in `open()` method (just combine the state of different roots 
-   and current node using 'OR'). This solution is also space-saving so it can pass all and the bonus Memory check.
+   and current node using 'OR'). This solution is also space-saving so it can pass all and the bonus Memory check. Plus, I kept the top virtual node which may reduce some steps.
    
    
