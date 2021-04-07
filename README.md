@@ -43,12 +43,12 @@ algorithm.
 [*Specification*](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php)
 
 [Code1 Deque class](/src/Deque.java)  
-[Code2 RandomizedQueue class](/src/RandomizedQueue.java)
+[Code2 RandomizedQueue class](/src/RandomizedQueue.java)  
 [Code3 Permutation client](/src/Permutation.java)
 
 :exclamation:note:  
 * Dual Linked List used in *Deque* implementation
 * Use Resizing Array to implement *RandomizedQueue* due to the performance requirement.
-* The crucial part:
+* The crucial part:  
    For the bonus credit in *permutation*, you need to use [Reservoir sampling](https://en.wikipedia.org/wiki/Reservoir_sampling#:~:text=Reservoir%20sampling%20is%20a%20family,to%20fit%20into%20main%20memory.). It's very interesting.
 * The funny part is that I'v got 99 for 3 times, then I found that I made a mistake in corner case in inner class.
